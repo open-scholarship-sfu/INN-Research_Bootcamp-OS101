@@ -1,0 +1,81 @@
+Open Science 101
+Duration: 1h
+
+Outline
+
+[10:30] Why open science?
+* Share decision making
+* Share content
+* Invite participation
+* People over process
+* Openness looks different across research areas, methods, and
+partnerships, and it’s a process towards responsible research.
+Constant self-reflection is a very important practice in any
+research trajectory.
+
+[10:35] Who am I?
+[10:36] OS in the research life cycle
+
+https://book.the-turing-way.org/reproducible-research/overview/#rr-overview-prerequisites
+
+(present a persona)
+Persona: Alex D., graduate student at the Simon Fraser University. They enjoy
+time outside and sometimes spend time on the weekends going to the local farms
+market. 
+
+# Ideation
+* Take a second look at what you're reading
+- Open Access
+- Marginalized researchers
+- Bibliodiversity
+
+- Who you're collaborating with?
+
+* Research design and planning
+
+- Documentation
+
+- Data management plan
+
+- Consent forms, anonymisation
+
+[EXERCISE 01]
+Things that might limit openness in my work (check any):
+Sensitive locations (e.g., species at risk, protected sites)
+Human participants (e.g., interviews, surveys)
+Indigenous or community-held knowledge
+Government or NGO partnerships
+Industry data or contracts
+Confidential or proprietary information
+I’m not sure yet
+
+How can I address these limitations?
+
+Reflecting on the papers I've been reading and the people I've been
+collaborating with, who am I missing? How can I invite them to participate?
+
+* Data collection and analysis
+
+- Data management plan (again!)
+
+- Metadata, archiving, versioning
+
+- Introduce the concept of research software engineering
+-- Think about the maintenance of your software!
+
+[EXERCISE 02]
+
+What is one action I can take to address a gap in my data and software
+management current routines?
+When can this happen?
+What help do I need?
+
+* Dissemination and sharing
+
+- Publishing and sharing
+- Licenses
+- The AI menace
+
+
+[11:15] Wrap-up and Q&A
+
