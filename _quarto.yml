@@ -1,5 +1,9 @@
 project:
-  title: "default"
+  type: website
+  output-dir: docs
 
-
-
+website:
+  title: "INN Research Bootcamp - OS101"
+  site-url: "https://open-scholarship-sfu.github.io/INN-Research_Bootcamp-OS101"
+  
+format: html
