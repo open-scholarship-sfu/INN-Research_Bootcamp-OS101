@@ -1,0 +1,205 @@
+/*-- scss:defaults --*/
+
+// =============================================================================
+// SFU / Institute of Neuroscience and Neurotechnology
+// Quarto RevealJS Theme
+// =============================================================================
+
+// Fonts
+// Import Google Font
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&display=swap");
+
+// Typography
+$font-family-sans-serif: "Asap", sans-serif;
+$presentation-heading-font: "Asap", sans-serif;
+
+
+// Brand colors
+$dark-grey: #54585A;
+$light-grey: #F7F7F7;
+$inn-dark-blue: #394764;
+$inn-light-blue: #98CBDB;
+$inn-light-green: #D2E9D6;
+$inn-medium-blue: #78BAE8;
+
+
+// RevealJS colors
+$body-bg: white;
+$body-color: $dark-grey;
+$heading-color: $inn-dark-blue;
+$link-color: $inn-dark-blue;
+$selection-bg: rgba($inn-dark-blue, 0.25);
+
+$presentation-heading-color: $inn-dark-blue;
+$presentation-heading-font-weight: 700;
+$presentation-heading-line-height: 1.1;
+
+$code-color: #7A1F36;
+$code-bg: #F5F5F5;
+
+/*-- scss:rules --*/
+
+// =============================================================================
+// General
+// =============================================================================
+
+.reveal {
+  font-size: 34px;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+// =============================================================================
+// Headings
+// =============================================================================
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  font-weight: 700;
+}
+
+.reveal h1 {
+  color: $inn-dark-blue;
+  font-size: 2.2em;
+}
+
+.reveal h2 {
+  border-bottom: 4px solid $inn-dark-blue;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.6em;
+}
+
+// =============================================================================
+// Links
+// =============================================================================
+
+.reveal a {
+  color: $inn-dark-blue;
+  text-decoration: none;
+}
+
+.reveal a:hover {
+  color: darken($inn-dark-blue, 10%);
+}
+
+// =============================================================================
+// Lists
+// =============================================================================
+
+.reveal ul li::marker {
+  color: $inn-dark-blue;
+}
+
+// =============================================================================
+// Blockquotes
+// =============================================================================
+
+.reveal blockquote {
+  border-left: 6px solid $inn-light-green;
+  background: #fafafa;
+  padding: 0.8em 1em;
+  box-shadow: none;
+}
+
+
+
+// =============================================================================
+// Title Slide
+// =============================================================================
+
+
+.title-slide {
+  color: $dark-grey;
+}
+
+.title-slide h1,
+.title-slide h2,
+.title-slide h3 {
+  color: $inn-dark-blue;
+}
+
+// =============================================================================
+// Footer
+// =============================================================================
+
+.reveal .footer {
+  color: $dark-grey;
+  font-size: 0.5em;
+}
+
+.reveal .slide-logo {
+  top: 20px;
+  right: 24px;
+  left: auto;
+
+  width: 1080px;
+
+  opacity: 0.25;
+}
+
+// =============================================================================
+// Callout Boxes
+// =============================================================================
+
+.callout-note,
+.callout-tip {
+  border-left: 6px solid $inn-medium-blue;
+}
+
+.callout-important {
+  border-left: 6px solid $inn-light-green;
+}
+
+// =============================================================================
+// Section Divider Slides
+// =============================================================================
+
+.section-slide {
+  background: $inn-dark-blue;
+  color: white;
+}
+
+.section-slide h1,
+.section-slide h2 {
+  color: white;
+  border: none;
+}
+
+// =============================================================================
+// Progress Bar
+// =============================================================================
+
+.reveal .progress span {
+  background: $inn-dark-blue;
+}
+/* Typography utilities */
+.big {
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.small {
+  font-size: 0.75em;
+  opacity: 0.8;
+}
+
+.muted {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Layout utilities */
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.spaced {
+  margin-top: 2em;
+}
