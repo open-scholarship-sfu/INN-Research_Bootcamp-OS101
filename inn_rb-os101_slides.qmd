@@ -105,7 +105,7 @@ https://sfdora.org/2026/05/25/reimagining-open-science/
 :::
 
 >[**'Significant' inequalities affect non-white researchers when publishing their work**](https://physicsworld.com/a/significant-inequalities-affect-non-white-researchers-when-publishing-their-work/)  
-Researchers who are not white face [...] longer publication delays than white scientists and fewer overall citations. [...] Black researchers in the US are the most under-represented on journal editorial boards.  
+*Researchers who are not white face [...] longer publication delays than white scientists and fewer overall citations. [...] Black researchers in the US are the most under-represented on journal editorial boards.*  
 
 ## Ideation
 
@@ -162,11 +162,31 @@ collaborating with, who am I missing? How can I invite them to participate?
 
 #### Documentation is your best friend!
 
-- Data management plan
+:::{.center .spaced}
+**✨ Data management plan ✨**
+:::
 
-- Consent forms
+> A written document outlining how data for a research project will be collected, documented, formatted, protected and preserved. DMPs may also describe <ins>whether data will be shared</ins>, where it will be deposited for access by others, and whether and when it will be destroyed.  
 
-- Pre-registration
+:::{.small}
+[*SFU's Research Data Management Strategy*](https://www.sfu.ca/research/researcher-resources/plan-my-research/compliance/research-data-management.html)
+:::
+
+## Research design and planning
+
+#### As open as possible, as closed as necessary.
+
+1. Which aspects of my research should be open and which aspects should be closed? Why?
+
+2. When, how and where should I make my research products available?
+
+3. Time to set up your git repository!
+
+## Research design and planning
+
+::: {.absolute top="50%" left="52%" width="120%" style="transform: translate(-50%, -50%);"}
+![](assets/project_canvas-template.svg)
+:::
 
 
 
@@ -210,28 +230,197 @@ How can I address these limitations?
 
 :::
 
-## Data collection and analysis
+## Data analysis
 
-- Data management plan (again!)
+#### Version control is your best friend!
 
-- Metadata, archiving, versioning
+:::{.center}
+![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/78587c8b-fa99-4c94-bce2-026cf4e588b5_rw_1200.png?h=6244a559bc3b32cdeda9cd4d407e8058){width="85%"}
+:::
 
-- Introduce the concept of research software engineering
--- Think about the maintenance of your software!
+::: footer
+:::{.small}
+*Illustrations from the [Openscapes](https://www.openscapes.org/) blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes.*
+:::
+:::
 
-# [EXERCISE 03]
+## Data analysis
 
-What is one action I can take to address a gap in my data and software
-management current routines?
+#### Fail publicly!
+
+:::{.center}
+![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/30943462-302c-44fd-b1da-9425f8ac4ec8_rw_1200.jpg?h=e86a71f03c509ca90cabce86e31775dd){width="85%"}
+:::
+
+::: footer
+:::{.small}
+*Illustrations from the [Openscapes](https://www.openscapes.org/) blog [GitHub for supporting, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) by Allison Horst and Julia Lowndes.*
+:::
+:::
+
+## Data analysis
+
+:::{.absolute top="50%" left="52%" width="100%" style="transform: translate(-50%, -50%);"}
+:::{.center}
+Who is going to maintain this piece of code when I move on from this position?
+:::
+:::
+
+# Exercise 03
+
+
+::: {.columns}
+
+::: {.column width="30%"}
+
+![](assets/peep-32.png)
+
+:::
+
+::: {.column width="70%"}
+
+:::{.spaced}
+Alex's work builds on a previous study from a postdoc who left their lab two years ago, but did not leave any documentation or the scripts they used to analyse the data. Alex now need to start from scratch...
+
+What are some ways Alex can address this issue and make their own work more transparent and reproducible?
+
+:::
+
+:::
+
+:::
+
+# Self-reflection minute
+
+:::{.left}
+
+What is **one** action I can take to address a gap in my current data and software
+management routines?
+
 When can this happen?
+
 What help do I need?
 
-# Dissemination and sharing
+:::
 
-- Publishing and sharing
-- Licenses
-- The AI menace
 
+
+## Dissemination and sharing
+
+#### Where the magic of decentralization of power happens!
+
+> [...] globally researchers have paid around an estimated **US $9 billion in APCs** between 2019 and 2023, distributed across just five major publishers, whose **profit margins approach 38%**. These fees were meant to democratize access but instead <ins>funnel public money into corporate and shareholder pockets at unsustainable scale</ins>.
+
+:::{.small}
+*["Why the Economics of Scientific Publishing Need Urgent Reform"](https://www.uottawa.ca/research-innovation/news-all/why-economics-scientific-publishing-need-urgent-reform) by Stefanie Haustein, October 2025.*
+:::
+
+## Dissemination and sharing
+
+#### Where the magic of decentralization of power happens!
+
+:::{.center}
+![](https://book.the-turing-way.org/build/routes-to-OA-1a1f7dab937676656c77eeaa75fe20b9.png){width="65%"}
+:::
+
+::: footer
+*The Turing Way* project illustration by Scriberia. Used under a CC-BY 4.0 licence. Original version on Zenodo. [Community & Scriberia (2021)](https://doi.org/10.5281/ZENODO.5706310).
+:::
+
+## Dissemination and sharing
+
+#### Where the magic of decentralization of power happens!
+
+:::{.center}
+![](https://biblio.unipd.it/en/digital-library/about-publishing/oa-colours_eng_1000x707_notitle.svg/@@images/image-1200-b4b310b32c9039a33df9565589955b34.svg){width="75%"}
+:::
+
+::: footer
+Source: https://bibliotecadigitale.cab.unipd.it/en/digital-library/about-publishing/open-access
+:::
+
+## Dissemination and sharing
+
+#### Where the magic of decentralization of power happens!
+
+:::{.center}
+![](https://book.the-turing-way.org/build/theturingway-acknowl-d93b35814cf38afb3abeb1d6bd4fb443.png){width="65%"}
+:::
+
+::: footer
+*The Turing Way* project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [The Turing Way Community & Scriberia (2024)](https://doi.org/10.5281/ZENODO.3332807).
+:::
+
+## Dissemination and sharing
+
+#### Where the magic of decentralization of power happens!
+
+CRediT taxonomy: [https://credit.niso.org/](https://credit.niso.org/)
+
+
+::: {.columns}
+
+::: {.column}
+
+Conceptualization
+
+Data curation
+
+Formal analysis
+
+Funding acquisition
+
+Investigation
+
+Methodology
+
+Project administration
+
+:::
+
+::: {.column}
+
+Resources
+
+Software
+
+Supervision
+
+Validation
+
+Visualization
+
+Writing – original draft
+
+Writing – review & editing
+
+:::
+
+:::
+
+
+# Self-reflection minute
+
+What is **one** thing I could make open in my research in the next 6 months?
+
+:::{.left}
+🔘 A preprint or journal article (e.g., via Summit)
+
+🔘 A dataset or dataset metadata (e.g., field observations,
+model outputs)
+
+🔘 Code or analysis scripts (e.g., R, Python, GIS workflows)
+
+🔘 A methods protocol (e.g., sampling, lab, or modelling work-
+flow)
+
+🔘 Conference poster or presentation slides
+
+🔘 A public-facing output (e.g., policy brief, report, blog post)
+
+Other (what?)
+
+:::
 
 # Wrap-up and Q&A
 

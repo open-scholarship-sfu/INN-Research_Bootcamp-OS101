@@ -29,7 +29,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="inn_rb-os101_slides_files/libs/revealjs/dist/theme/quarto-4e6e4662b63c14bcabd8681647e42ecb.css">
+  <link rel="stylesheet" href="inn_rb-os101_slides_files/libs/revealjs/dist/theme/quarto-a06633af600622143c0e4effe077e633.css">
   <link href="inn_rb-os101_slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="inn_rb-os101_slides_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="inn_rb-os101_slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -221,7 +221,7 @@ PhD in Ecology and Evolution (mostly computers)</em></p>
 </div>
 <blockquote>
 <p><a href="https://physicsworld.com/a/significant-inequalities-affect-non-white-researchers-when-publishing-their-work/"><strong>‘Significant’ inequalities affect non-white researchers when publishing their work</strong></a><br>
-Researchers who are not white face […] longer publication delays than white scientists and fewer overall citations. […] Black researchers in the US are the most under-represented on journal editorial boards.</p>
+<em>Researchers who are not white face […] longer publication delays than white scientists and fewer overall citations. […] Black researchers in the US are the most under-represented on journal editorial boards.</em></p>
 </blockquote>
 </section>
 <section id="ideation-1" class="slide level2">
@@ -264,11 +264,30 @@ Researchers who are not white face […] longer publication delays than white sc
 <section id="research-design-and-planning" class="slide level2">
 <h2>Research design and planning</h2>
 <h4 id="documentation-is-your-best-friend">Documentation is your best friend!</h4>
-<ul>
-<li><p>Data management plan</p></li>
-<li><p>Consent forms</p></li>
-<li><p>Pre-registration</p></li>
-</ul>
+<div class="center spaced">
+<p><strong>✨ Data management plan ✨</strong></p>
+</div>
+<blockquote>
+<p>A written document outlining how data for a research project will be collected, documented, formatted, protected and preserved. DMPs may also describe <ins>whether data will be shared</ins>, where it will be deposited for access by others, and whether and when it will be destroyed.</p>
+</blockquote>
+<div class="small">
+<p><a href="https://www.sfu.ca/research/researcher-resources/plan-my-research/compliance/research-data-management.html"><em>SFU’s Research Data Management Strategy</em></a></p>
+</div>
+</section>
+<section id="research-design-and-planning-1" class="slide level2">
+<h2>Research design and planning</h2>
+<h4 id="as-open-as-possible-as-closed-as-necessary.">As open as possible, as closed as necessary.</h4>
+<ol type="1">
+<li><p>Which aspects of my research should be open and which aspects should be closed? Why?</p></li>
+<li><p>When, how and where should I make my research products available?</p></li>
+<li><p>Time to set up your git repository!</p></li>
+</ol>
+</section>
+<section id="research-design-and-planning-2" class="slide level2">
+<h2>Research design and planning</h2>
+<div class="absolute" style="transform: translate(-50%, -50%);top: 50%; left: 52%; width: 120%; ">
+<p><img data-src="assets/project_canvas-template.svg"></p>
+</div>
 </section></section>
 <section id="exercise-02" class="title-slide slide level1 center">
 <h1>Exercise 02</h1>
@@ -295,29 +314,138 @@ Researchers who are not white face […] longer publication delays than white sc
 🔘 Industry data or contracts<br>
 🔘 Confidential or proprietary information<br>
 🔘 I’m not sure yet</p>
-<p>How can you address these limitations?</p>
+<p>How can I address these limitations?</p>
 </div>
 </section>
-<section id="data-collection-and-analysis" class="slide level2">
-<h2>Data collection and analysis</h2>
-<ul>
-<li><p>Data management plan (again!)</p></li>
-<li><p>Metadata, archiving, versioning</p></li>
-<li><p>Introduce the concept of research software engineering – Think about the maintenance of your software!</p></li>
-</ul>
+<section id="data-analysis" class="slide level2">
+<h2>Data analysis</h2>
+<h4 id="version-control-is-your-best-friend">Version control is your best friend!</h4>
+<div class="center">
+<p><img data-src="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/78587c8b-fa99-4c94-bce2-026cf4e588b5_rw_1200.png?h=6244a559bc3b32cdeda9cd4d407e8058" style="width:85.0%"></p>
+</div>
+<div class="footer">
+<div class="small">
+<p><em>Illustrations from the <a href="https://www.openscapes.org/">Openscapes</a> blog <a href="https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/">GitHub for supporting, contributing, and failing safely</a> by Allison Horst and Julia Lowndes.</em></p>
+</div>
+</div>
+</section>
+<section id="data-analysis-1" class="slide level2">
+<h2>Data analysis</h2>
+<h4 id="fail-publicly">Fail publicly!</h4>
+<div class="center">
+<p><img data-src="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/30943462-302c-44fd-b1da-9425f8ac4ec8_rw_1200.jpg?h=e86a71f03c509ca90cabce86e31775dd" style="width:85.0%"></p>
+</div>
+<div class="footer">
+<div class="small">
+<p><em>Illustrations from the <a href="https://www.openscapes.org/">Openscapes</a> blog <a href="https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/">GitHub for supporting, contributing, and failing safely</a> by Allison Horst and Julia Lowndes.</em></p>
+</div>
+</div>
+</section>
+<section id="data-analysis-2" class="slide level2">
+<h2>Data analysis</h2>
+<div class="absolute" style="transform: translate(-50%, -50%);top: 50%; left: 52%; width: 100%; ">
+<div class="center">
+<p>Who is going to maintain this piece of code when I move on from this position?</p>
+</div>
+</div>
 </section></section>
 <section id="exercise-03" class="title-slide slide level1 center">
-<h1>[EXERCISE 03]</h1>
-<p>What is one action I can take to address a gap in my data and software management current routines? When can this happen? What help do I need?</p>
+<h1>Exercise 03</h1>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><img data-src="assets/peep-32.png"></p>
+</div><div class="column" style="width:70%;">
+<div class="spaced">
+<p>Alex’s work builds on a previous study from a postdoc who left their lab two years ago, but did not leave any documentation or the scripts they used to analyse the data. Alex now need to start from scratch…</p>
+<p>What are some ways Alex can address this issue and make their own work more transparent and reproducible?</p>
+</div>
+</div></div>
 </section>
 
-<section id="dissemination-and-sharing" class="title-slide slide level1 center">
-<h1>Dissemination and sharing</h1>
-<ul>
-<li>Publishing and sharing</li>
-<li>Licenses</li>
-<li>The AI menace</li>
-</ul>
+<section>
+<section id="self-reflection-minute-2" class="title-slide slide level1 center">
+<h1>Self-reflection minute</h1>
+<div class="left">
+<p>What is <strong>one</strong> action I can take to address a gap in my current data and software management routines?</p>
+<p>When can this happen?</p>
+<p>What help do I need?</p>
+</div>
+</section>
+<section id="dissemination-and-sharing" class="slide level2">
+<h2>Dissemination and sharing</h2>
+<h4 id="where-the-magic-of-decentralization-of-power-happens">Where the magic of decentralization of power happens!</h4>
+<blockquote>
+<p>[…] globally researchers have paid around an estimated <strong>US $9 billion in APCs</strong> between 2019 and 2023, distributed across just five major publishers, whose <strong>profit margins approach 38%</strong>. These fees were meant to democratize access but instead <ins>funnel public money into corporate and shareholder pockets at unsustainable scale</ins>.</p>
+</blockquote>
+<div class="small">
+<p><em><a href="https://www.uottawa.ca/research-innovation/news-all/why-economics-scientific-publishing-need-urgent-reform">“Why the Economics of Scientific Publishing Need Urgent Reform”</a> by Stefanie Haustein, October 2025.</em></p>
+</div>
+</section>
+<section id="dissemination-and-sharing-1" class="slide level2">
+<h2>Dissemination and sharing</h2>
+<h4 id="where-the-magic-of-decentralization-of-power-happens-1">Where the magic of decentralization of power happens!</h4>
+<div class="center">
+<p><img data-src="https://book.the-turing-way.org/build/routes-to-OA-1a1f7dab937676656c77eeaa75fe20b9.png" style="width:65.0%"></p>
+</div>
+<div class="footer">
+<p><em>The Turing Way</em> project illustration by Scriberia. Used under a CC-BY 4.0 licence. Original version on Zenodo. <a href="https://doi.org/10.5281/ZENODO.5706310">Community &amp; Scriberia (2021)</a>.</p>
+</div>
+</section>
+<section id="dissemination-and-sharing-2" class="slide level2">
+<h2>Dissemination and sharing</h2>
+<h4 id="where-the-magic-of-decentralization-of-power-happens-2">Where the magic of decentralization of power happens!</h4>
+<div class="center">
+<p><img data-src="https://biblio.unipd.it/en/digital-library/about-publishing/oa-colours_eng_1000x707_notitle.svg/@@images/image-1200-b4b310b32c9039a33df9565589955b34.svg" style="width:75.0%"></p>
+</div>
+<div class="footer">
+<p>Source: https://bibliotecadigitale.cab.unipd.it/en/digital-library/about-publishing/open-access</p>
+</div>
+</section>
+<section id="dissemination-and-sharing-3" class="slide level2">
+<h2>Dissemination and sharing</h2>
+<h4 id="where-the-magic-of-decentralization-of-power-happens-3">Where the magic of decentralization of power happens!</h4>
+<div class="center">
+<p><img data-src="https://book.the-turing-way.org/build/theturingway-acknowl-d93b35814cf38afb3abeb1d6bd4fb443.png" style="width:65.0%"></p>
+</div>
+<div class="footer">
+<p><em>The Turing Way</em> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/ZENODO.3332807">The Turing Way Community &amp; Scriberia (2024)</a>.</p>
+</div>
+</section>
+<section id="dissemination-and-sharing-4" class="slide level2">
+<h2>Dissemination and sharing</h2>
+<h4 id="where-the-magic-of-decentralization-of-power-happens-4">Where the magic of decentralization of power happens!</h4>
+<p>CRediT taxonomy: <a href="https://credit.niso.org/">https://credit.niso.org/</a></p>
+<div class="columns">
+<div class="column">
+<p>Conceptualization</p>
+<p>Data curation</p>
+<p>Formal analysis</p>
+<p>Funding acquisition</p>
+<p>Investigation</p>
+<p>Methodology</p>
+<p>Project administration</p>
+</div><div class="column">
+<p>Resources</p>
+<p>Software</p>
+<p>Supervision</p>
+<p>Validation</p>
+<p>Visualization</p>
+<p>Writing – original draft</p>
+<p>Writing – review &amp; editing</p>
+</div></div>
+</section></section>
+<section id="self-reflection-minute-3" class="title-slide slide level1 center">
+<h1>Self-reflection minute</h1>
+<p>What is <strong>one</strong> thing I could make open in my research in the next 6 months?</p>
+<div class="left">
+<p>🔘 A preprint or journal article (e.g., via Summit)</p>
+<p>🔘 A dataset or dataset metadata (e.g., field observations, model outputs)</p>
+<p>🔘 Code or analysis scripts (e.g., R, Python, GIS workflows)</p>
+<p>🔘 A methods protocol (e.g., sampling, lab, or modelling work- flow)</p>
+<p>🔘 Conference poster or presentation slides</p>
+<p>🔘 A public-facing output (e.g., policy brief, report, blog post)</p>
+<p>Other (what?)</p>
+</div>
 </section>
 
 <section id="wrap-up-and-qa" class="title-slide slide level1 center">
