@@ -5,7 +5,7 @@ format:
   revealjs:
     theme: theme.scss
     logo: assets/INN-Brandmark-Logo-RGB-FullColour.svg
-    footer: "INN Summer Research Bootcamp 2026"
+    footer: "INN Summer Research Bootcamp 2026 • bit.ly/inn-os101"
 
 ---
 
