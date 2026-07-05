@@ -5,8 +5,28 @@ format:
   revealjs:
     theme: theme.scss
     logo: assets/INN-Brandmark-Logo-RGB-FullColour.svg
-    footer: "INN Summer Research Bootcamp 2026 • bit.ly/inn-os101"
-
+    footer: |
+      <a href="https://github.com/open-scholarship-sfu/INN-Research_Bootcamp-OS101" target="_blank" title="GitHub repository">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        &nbsp;&bull;&nbsp;
+        INN Summer Research Bootcamp 2026
+        &nbsp;&bull;&nbsp;
+        <a href="https://bit.ly/inn-os101" target="_blank">
+          bit.ly/inn-os101
+        </a>
+    include-in-header:
+          text: |
+            <link rel="stylesheet"
+                  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+countdown: 
+    color_background: "#ffffff"
+    color_border: "#98CBDB"
+    border_radius: "0rem"
+    color_text: "#394764"
+    color_running_text: "#394764"
+    color_running_background: "#F7F7F7"
+    color_running_border: "#78BAE8"
 ---
 
 
@@ -78,13 +98,6 @@ Constant self-reflection is a very important practice in any
 research trajectory.
 :::
 
-# OS in the research life cycle
-
-![](assets/open_research_journey.png)
-
-::: footer
-The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [The Turing Way Community & Scriberia (2024)](https://doi.org/10.5281/ZENODO.3332807).
-:::
 
 # OS in the research life cycle
 
@@ -121,7 +134,7 @@ https://sfdora.org/2026/05/25/reimagining-open-science/
 ## Ideation
 
 :::{.center}
-***Take a second look at what who you're collaborating with!***
+***Take a second look at who you're collaborating with!***
 
 
 ![](assets/collaboration.svg){ width=70% }
@@ -132,6 +145,7 @@ The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence
 :::
 
 # Exercise 01
+
 
 
 ::: {.columns}
@@ -152,11 +166,16 @@ Which steps can Alex D. take to make their research more open and inclusive in t
 
 :::
 
+{{< countdown "3:00" top=0 right=0 >}}
+
 # Self-reflection minute
+
+
 
 Reflecting on the papers I've been reading and the people I've been
 collaborating with, who am I missing? How can I invite them to participate?
 
+{{< countdown "1:00"  top=0 right=0 >}}
 
 ## Research design and planning
 
@@ -192,6 +211,7 @@ collaborating with, who am I missing? How can I invite them to participate?
 
 # Exercise 02
 
+{{< countdown "5:00" top="0" right="0" >}}
 
 ::: {.columns}
 
@@ -214,6 +234,8 @@ What are the things that might limit openness in Alex D.'s work? How can they ad
 :::
 
 # Self-reflection minute
+
+{{< countdown "1:00" top="0" right="0" >}}
 
 :::{.left}
 What are the things that might limit openness in my work?  
@@ -248,9 +270,28 @@ How can I address these limitations?
 
 #### Fail publicly!
 
+::: {.columns}
+
+::: {.column width="70%"}
+
 :::{.center}
 ![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/30943462-302c-44fd-b1da-9425f8ac4ec8_rw_1200.jpg?h=e86a71f03c509ca90cabce86e31775dd){width="85%"}
 :::
+
+
+:::
+
+::: {.spaced .column width="30%"}
+
+[Check out the <s>fails</s> repo for these slides here!](https://github.com/open-scholarship-sfu/INN-Research_Bootcamp-OS101/)
+
+
+:::
+
+:::
+
+
+
 
 ::: footer
 :::{.small}
@@ -261,13 +302,15 @@ How can I address these limitations?
 ## Data analysis
 
 :::{.absolute top="50%" left="52%" width="100%" style="transform: translate(-50%, -50%);"}
-:::{.center}
-Who is going to maintain this piece of code when I move on from this position?
+:::{.center .big}
+Who is going to maintain this piece of code when 
+I move on from this position?
 :::
 :::
 
 # Exercise 03
 
+{{< countdown "5:00" top="0" right="0" >}}
 
 ::: {.columns}
 
@@ -291,6 +334,8 @@ What are some ways Alex can address this issue and make their own work more tran
 :::
 
 # Self-reflection minute
+
+{{< countdown "1:00" top="0" right="0" >}}
 
 :::{.left}
 
@@ -401,24 +446,25 @@ Writing – review & editing
 
 # Self-reflection minute
 
-What is **one** thing I could make open in my research in the next 6 months?
+{{< countdown "1:00" top="0" right="0" margin="0em -3em" >}}
 
-:::{.left}
+What is **one** thing I could make open in my research  
+in the next 6 months?
+
+:::{.spaced .left}
 🔘 A preprint or journal article (e.g., via Summit)
 
-🔘 A dataset or dataset metadata (e.g., field observations,
-model outputs)
+🔘 A dataset or dataset metadata (e.g., model outputs)
 
 🔘 Code or analysis scripts (e.g., R, Python, GIS workflows)
 
-🔘 A methods protocol (e.g., sampling, lab, or modelling work-
-flow)
+🔘 A methods protocol (e.g., sampling, lab, or modelling workflow)
 
 🔘 Conference poster or presentation slides
 
 🔘 A public-facing output (e.g., policy brief, report, blog post)
 
-Other (what?)
+🔘 Other (what?)
 
 :::
 
