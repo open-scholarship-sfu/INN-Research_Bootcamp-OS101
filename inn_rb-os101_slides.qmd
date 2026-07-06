@@ -201,7 +201,7 @@ collaborating with, who am I missing? How can I invite them to participate?
 
 3. Time to set up your git repository!
 
-## Research design and planning
+---
 
 ::: {.absolute top="50%" left="52%" width="120%" style="transform: translate(-50%, -50%);"}
 ![](assets/project_canvas-template.svg)
