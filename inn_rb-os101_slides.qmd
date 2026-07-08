@@ -365,7 +365,7 @@ What help do I need?
 #### Where the magic of decentralization of power happens!
 
 :::{.center}
-![](https://book.the-turing-way.org/build/routes-to-OA-1a1f7dab937676656c77eeaa75fe20b9.png){width="65%"}
+![](assets/routes_to_oa.png){width="65%"}
 :::
 
 ::: footer
@@ -389,7 +389,7 @@ Source: https://bibliotecadigitale.cab.unipd.it/en/digital-library/about-publish
 #### Where the magic of decentralization of power happens!
 
 :::{.center}
-![](https://book.the-turing-way.org/build/theturingway-acknowl-d93b35814cf38afb3abeb1d6bd4fb443.png){width="65%"}
+![](assets/contributors.png){width="65%"}
 :::
 
 ::: footer
